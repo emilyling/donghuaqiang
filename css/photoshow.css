@@ -1,0 +1,55 @@
+/*created by kerwin*/
+html,body{
+	overflow: hidden;
+}
+
+.imageContainer img{
+	width : 180px;
+	height :180px;
+	display :inline-block;
+	position :absolute;
+	-moz-transition: left 0.5s ease-in-out 0s;
+	-webkit-transition: left 0.5s ease-in-out 0s;
+}
+
+.imageContainer img.hover{
+  -webkit-animation-name:wobbleme;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-delay: 0;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction:alternate ;
+  -moz-animation-name:wobbleme;
+  -moz-animation-duration: 0.5s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-delay: 0;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-direction:alternate ;
+}
+
+@-webkit-keyframes wobbleme{
+     from {
+       	-webkit-transform:rotate(-10deg);
+ 	 }
+ 	 to{
+		-webkit-transform:rotate(10deg);
+ 	 }
+  }
+@-moz-keyframes wobbleme{
+     from {
+       	-moz-transform:rotate(-10deg);
+ 	 }
+ 	 to{
+		-moz-transform:rotate(10deg);
+ 	 }
+  }
+.imageContainer{
+	position :relative;	
+	overflow :visible;
+	width :50%;
+	height :100%;
+	margin: 0 auto;
+	
+
+
+}

@@ -1,0 +1,10 @@
+{
+	"style":[
+		{"row":["thumbs/01.jpg","thumbs/02.jpg","static/00.jpg","static/02.jpg","thumbs/03.jpg","thumbs/04.jpg"]
+		},
+		{"row":["thumbs/05.jpg","thumbs/06.jpg","thumbs/07.jpg","thumbs/08.jpg","static/03.jpg","thumbs/09.jpg"]
+		},
+		{"row":["static/04.jpg","thumbs/10.jpg","thumbs/11.jpg","static/05.jpg","thumbs/12.jpg","static/08.jpg"]
+		}
+	]
+}
